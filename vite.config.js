@@ -1,7 +1,7 @@
 import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
-// https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
+  base: '/adlanta-tracker/', // <--- Yahan apni repo ka naam dalein (e.g., /adlanta-tracker/)
 })
